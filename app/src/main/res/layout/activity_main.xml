@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-600dp"
+        android:fontFamily="serif-monospace"
+        android:text="Riann Rodrigues"
+        android:textColor="#333333"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <TextView
+        android:id="@+id/txtConteúdo"
+        android:layout_width="313dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="24dp"
+        android:text="Morbi rhoncus enim eros, quis ultrices nisl laoreet quis. Cras erat sapien, sollicitudin non ornare et, commodo nec massa. Nullam dolor ligula, rhoncus a arcu ac, dapibus sollicitudin libero. Aenean non tortor at est sodales ullamcorper. Phasellus nisi nulla, tristique a elit commodo, posuere varius urna. Morbi in augue tristique, ornare sapien sit amet, aliquam nisl. In aliquet risus vel dolor efficitur ultrices. Sed mollis mattis leo eget consequat. Proin ultricies sapien at tincidunt lacinia. Suspendisse non est sollicitudin, euismod felis id, eleifend est. Quisque porttitor pretium metus. Nunc semper ex sed felis laoreet luctus. Vestibulum lacinia tortor eu nibh dictum rutrum."
+        android:textAllCaps="false"
+        android:textIsSelectable="false"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="408dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/abertura"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
